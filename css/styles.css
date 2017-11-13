@@ -1,8 +1,9 @@
 img {
-  height: 75px;
+  height: 85px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding: 5px;
 }
 .container {
   border: 10px Solid Cyan;
@@ -18,26 +19,27 @@ img {
 .image {
     /*justify-content: center;*/
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     border: 5px Solid rgba(70, 126, 212, 0.78);
     background-color: #a8c1e1;
-    color: purple;
+    color: #9726fb;
     position: absolute;
     top: 50%;
     margin: auto;
     transform: translate(-50%, -50%);
     left: 50%;
-
-
-
+    text-align: center;
 }
+
   .inner {
+    height: auto;
     border: 1px Solid Grey;
     position: relative;
     background-color: #d8d8d8;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
     margin: auto;
     text-align: center;
   }
@@ -48,31 +50,38 @@ img {
     /*top: 150%;*/
     margin: auto;
     box-sizing: content-box;
-    border: 4px Solid grey;
+    border: 2px Solid grey;
     position: relative;
   }
   .right-side {
-    border: 4px Solid Purple;
+    border: 2px Solid #9726fb;
     height: 300px;
     width: 60%;
     top: 50%;
     margin: auto;
   }
   .top-row {
-    border-bottom: 4px Solid Purple;
+    border-bottom: 2px Solid #9726fb;
+    height: 30px;
+    padding-bottom: 8px;
   }
 
 .top-row h4 {
   display: inline-grid;
-  color: purple;
+  color: #9726fb;
+  padding-bottom: 15%;
+
 }
 
 .top-row h4:first-child {
   text-align: center;
+  margin-left: 42%;
+
 }
 
 .top-row h4:last-child {
   float: right;
+  padding-right: 15px;
 }
 
 .image p {
@@ -81,9 +90,9 @@ img {
   width: 10em;
 }
 
-.right-side p {
+.text p {
   margin-left: auto;
   margin-right: auto;
   width: 18em;
-  margin-top: 8%;
+  margin-top: 12%;
 }
